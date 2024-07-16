@@ -1,4 +1,4 @@
-Jeu Pierre feuille papier Ciseaux avec différents niveaux débloquable: 
+Jeu Pierre feuille papier Ciseaux avec différents niveaux débloquables: 
 
 Bob le Stupide (Niveau 1):
 Choix fixe : toujours 'rock'.
