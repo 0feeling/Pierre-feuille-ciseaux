@@ -1,0 +1,65 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5em;
+  margin-top: 20px;
+  color: #333;
+}
+
+.level-selection {
+  margin-bottom: 20px;
+}
+
+.level-selection label {
+  font-size: 1.2em;
+  margin-right: 10px;
+  color: #555;
+}
+
+#level-select {
+  padding: 8px;
+  font-size: 1em;
+}
+
+.game-area {
+  background-color: #e8e121;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.move-button {
+  font-size: 3em;
+  margin: 10px;
+  padding: 25px;
+  border: none;
+  background: #4CAF50; /* Green */
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}

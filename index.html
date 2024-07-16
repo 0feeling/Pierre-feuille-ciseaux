@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PIERRE PAPIER CISEAUX</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">PIERRE PAPIER CISEAUX</h1>
+
+    <div class="level-selection">
+      <label for="level-select">Choisissez un adversaire :</label>
+      <select id="level-select">
+        <option value="1">Bob le Stupide 🤪 (Niveau 1)</option>
+        <option value="2" disabled>Alice la Prudente 🤔 (Niveau 2)</option>
+        <option value="3" disabled>Charlie le Chanceux 🍀 (Niveau 3)</option>
+        <option value="4" disabled>Dana la Stratégique 🧠 (Niveau 4)</option>
+        <option value="5" disabled>Élodie l'Intrépide 🚀 (Niveau 5)</option>
+      </select>
+    </div>
+
+    <div class="game-area">
+      <div class="game-info">
+        <div class="moves">
+          <p class="js-moves"></p>
+        </div>
+        <div class="result">
+          <p class="js-result"></p>
+        </div>
+        <div class="score">
+          <p class="js-score"></p>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="move-button js-rock-button">✊</button>
+        <button class="move-button js-paper-button">✋</button>
+        <button class="move-button js-scissors-button">✌️</button>
+      </div>
+
+      <button onclick="resetScore()" class="reset-score-button js-reset-score-button">Réinitialiser le score</button>
+    </div>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
